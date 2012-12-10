@@ -1,0 +1,25 @@
+ridho-ms-MacBook-Pro:gitrepo ridhom$ mkdir gittest
+ridho-ms-MacBook-Pro:gitrepo ridhom$ cd gittest/
+ridho-ms-MacBook-Pro:gittest ridhom$ git init
+Initialized empty Git repository in /Users/ridhom/Documents/gitrepo/gittest/.git/
+ridho-ms-MacBook-Pro:gittest ridhom$ ls 
+ridho-ms-MacBook-Pro:gittest ridhom$ ls 
+comitpertama.txt
+ridho-ms-MacBook-Pro:gittest ridhom$ git add 
+.git/             comitpertama.txt  
+ridho-ms-MacBook-Pro:gittest ridhom$ git add comitpertama.txt 
+ridho-ms-MacBook-Pro:gittest ridhom$ git commit -m "komit pertamx"
+[master (root-commit) dc7fa4e] komit pertamx
+ 1 file changed, 1 insertion(+)
+ create mode 100644 comitpertama.txt
+ridho-ms-MacBook-Pro:gittest ridhom$ git remote add origin https://github.com/takenjiridho/gittest.git
+ridho-ms-MacBook-Pro:gittest ridhom$ git push -u origin master
+Username for 'https://github.com': muhammad.ridho@gmail.com
+Password for 'https://muhammad.ridho@gmail.com@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 226 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/takenjiridho/gittest.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+ridho-ms-MacBook-Pro:gittest ridhom$ 
